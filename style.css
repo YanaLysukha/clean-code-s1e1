@@ -88,6 +88,9 @@ button{
 /* New Task */
 .task-section__header {
   display: block;
+  margin: 0px;
+}
+.task-section__header_new{
   margin: 0 0 20px;
 }
 .task-list__input_new {
