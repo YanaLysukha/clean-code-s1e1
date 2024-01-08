@@ -90,7 +90,7 @@ const editTask = function(){
   const editInput = listItem.querySelector(".task-list__input");
   const label = listItem.querySelector(".task-list__label");
   const editBtn = listItem.querySelector(".task-list__btn_edit");
-  const containsClass = listItem.classList.contains("task-list__items_editMode");
+  const containsClass = listItem.classList.contains("task-list__items_edit-mode");
   //If class of the parent is .editmode
   if(containsClass){
 
@@ -104,7 +104,7 @@ const editTask = function(){
   }
 
   //toggle .editmode on the parent.
-  listItem.classList.toggle("task-list__items_editMode");
+  listItem.classList.toggle("task-list__items_edit-mode");
 };
 
 
