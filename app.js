@@ -190,7 +190,7 @@ for (let i = 0; i < completedTasksHolder.children.length; i++){
   bindTaskEvents(completedTasksHolder.children[i],taskIncomplete);
 }
 
-
+alert('Уважаемые проверяющие, прошу прощения, что засабмитила неверную ссылку, поэтому прикрепила её здесь https://github.com/YanaLysukha/clean-code-s1e1/pull/1');
 
 
 // Issues with usability don't get seen until they are in front of a human tester.
