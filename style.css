@@ -44,7 +44,7 @@ li {
   list-style: none;
 }
 input,
-button{
+button {
   outline: none;
 }
 .task-list__btn {
@@ -90,7 +90,7 @@ button{
   display: block;
   margin: 0px;
 }
-.task-section__heading_new{
+.task-section__heading_new {
   margin: 0 0 20px;
 }
 .task-list__input_new {
@@ -99,7 +99,7 @@ button{
 }
 
 /* Task list */
-.task-list__items{
+.task-list__items {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
